@@ -128,7 +128,7 @@ In line one, we recognize that we have three numbers. In line two, we get the su
 
 Lastly, one must turn the pseudo code into real code. In order to do this, one must actually know how to code, and having some fluency with the language syntax and knowledge of running code will be required to run the program.  For a student, they might write something like this:
 
-    function TwoNumbersAddToThree(a, b, c) {
+    function TwoNumbersAddToThird(a, b, c) {
         return (a + b) === c;
     }   
 
