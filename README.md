@@ -142,7 +142,7 @@ Some reader say think that the information presented thus far is common knowledg
 
 *An Exercise: (WANT TO KNOW)*
 
-Think of a problem you have yourself in your life and want to solve, and go through this problem solving process. Can you think of the problem in terms of inputs and outputs? Where do you get stuck in the process? What gets you unstuck? Write all of this down on paper and reflect on it in a journal entry. Answer these questions and gives examples to yourself. It could be any kind of problem, anything from a math problem to a philosophy problem. 
+Think of a problem you have yourself in your life and want to solve, and go through this problem solving process. Can you think of the problem in terms of inputs and outputs? Where do you get stuck in the process? What gets you unstuck? Write all of this down on paper and reflect on it in a journal entry. Answer these questions and gives examples to yourself. It could be any kind of problem, anything at all. 
 
 *Strategies: (LEARNED)*
 
