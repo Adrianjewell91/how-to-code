@@ -148,7 +148,7 @@ Think of a problem you have yourself in your life and want to solve, and go thro
 Strategies that help with The various stages in the problem solving process:
 
 1. Clarifying the problem and generating test cases: Lots of situations where people point out a test case that you hadn’t thought of yourself, and you feel embarrassed that you didn’t think of that yourself. 
-2. Coming up with strategies. Coming up with more test cases, and trying to walk through, in your head, the steps that led from the inputs to the outputs.  If you hadn’t visualize it or explain it, then do simpler test cases and gradually get more complex. Come up with the simplest set of inputs and explanation for it, and then guild out gradually more complete set of test cases and a solution to that set. 
+2. Coming up with strategies. Coming up with more test cases, and trying to walk through, in your head, the steps that led from the inputs to the outputs.  If you hadn’t visualize it or explain it, then do simpler test cases and gradually get more complex. Come up with the simplest set of inputs and explanation for it, and then build out gradually more complete set of test cases and a solution to that set. 
 3. Pick a solution: Be evaluated on your judgement many times over and over again. Learn about Time and Space Complexity.
 4. Pseudo-Code: Lots of coding and reading solutions.
 5. Code and Test: Lots of coding and reading solutions. 
