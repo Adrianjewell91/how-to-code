@@ -163,6 +163,7 @@ Strategies that help with the various stages in the problem solving process:
     - Take a Programming Langauge Course on Codecademy.com.
     - If your code doesn't work, debug the code by putting print statements at various places in the code to see the state of the program at that moment in time.
     - If you're reading a solution and you don't understand it, do the code out on paper. Do not take shortcuts. "Doing the code" means stepping through the code, line by line, tracking all the variables. If you do this, you will understand the code, and you will gain insight.
+6. Always be testing your ideas along the way. Do you have an idea? Test it with a new test case.
 
 Profound statements: 
 1. We have ideas before we understand them. That is, when you have an idea, you actually must explore it and try it out before you know what you actually comprehend what you meant. 	
