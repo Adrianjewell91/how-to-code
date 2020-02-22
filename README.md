@@ -136,7 +136,7 @@ This is an implementation of the function in the programming language javascript
 
 Despite this, however, go from pseudo-code is really the very easiest out of all the six steps because the main skill required is really just grit rather than creativity and insight, but the grind is not be undervalued. In fact, it is common knowledge that the most important factor in success is discipline and perseverance. In this final step, this kind perseverance is what allows somebody to do what we call “DEBUG” the code: the process of writing code, having the code churn out the wrong answer, then figuring out why it failed and trying to fix it. This is a skill that takes time to develop, and we will give tips for working on this too. 
 
-If you test your code, and it works. Then congrats! You solve a problem. It is recommended to solve 150 of these problems. If you can do that, and solve other ones within forty-five minutes, then you can consider yourself a skilled coder, and should apply for a job in computer programming. Of course, that number is a rough estimate, taken from the amount of LeetCode.com problems the company Google thinks an aspiring engineer should solve before one is ready to interview. 
+If you test your code, and it works. Then congrats! You solve a problem. It is recommended to solve 150 of these problems (Go onto either Codesignal.com or Leetcode.com). If you do that, and keep practicing until you can solve medium level problems within forty-five minutes, then consider yourself a skilled coder, and apply for a job as a software engineer. Of course, that number is a rough estimate, taken from the amount of LeetCode.com problems that the company Google thinks an aspiring engineer should solve before one is ready to interview. 
 
 Some reader say think that the information presented thus far is common knowledge, or widely available already. That is all true, but that is precisely why this content is part of the course’s the introduction. Rather, the aim of the actual course is to technique cognitive techniques and theory that will allow the engineer to effortlessly do the process, and do it well. 
 
@@ -152,21 +152,20 @@ Strategies that help with the various stages in the problem solving process:
     - Put yourself in lots of situations where people point out a test case that you hadn’t thought of yourself, and you feel embarrassed that you didn’t think of that yourself. Then you will remember to think "outside the box" next time.
     - Question the assumptions you are making about the problem.
 2. Coming up with strategies:
-    - Think of more test cases. If you can't visualize the steps or explain it, then do simpler test cases and gradually get more complex. Come up with the simplest set of inputs and explanation for it, and then build out gradually more complete set of test cases and a solution to that set.
+    - Think of more test cases and observe how they are similar. Then use these similarities to explan how you get from the inputs to the outputs. If you can't visualize the steps or explain them, then do simpler test cases and gradually get more complex. 
     - Write it out: Write out the steps that your mind takes in English. Write it all down. 
     - Draw Pictures (Why is bubble sort called bubble sort?)
-    - Subdivide the problem: If you can get "halfway" to the answer, then that is a good start. Try to break the problem into smaller chunks. 
-    - If you have an idea: Flesh it out and explore the idea to see what happens. 
+    - Subdivide the problem: If you can get "halfway" to the answer, then that is a good start. Try to break the problem into smaller and smaller chunks. 
+    - If you have an idea, no matter how vague or wierd: Flesh it out and explore the idea to see what happens. 
 3. Pick a solution: Be evaluated on your judgement many times over and over again. Learn about Time and Space Complexity.
 4. Pseudo-Code: Lots of coding and reading solutions.
 5. Code and Test: Lots of coding and reading solutions. 
-    - Take a Code Syntax Course of Codecademy.com
-    - If your code doesn't work, debug the code by putting print statements at various places in the code.
+    - Take a Programming Langauge Course on Codecademy.com.
+    - If your code doesn't work, debug the code by putting print statements at various places in the code to see the state of the program at that moment in time.
     - If you're reading a solution and you don't understand it, do the code out on paper. Do not take shortcuts. "Doing the code" means stepping through the code, line by line, tracking all the variables. If you do this, you will understand the code, and you will gain insight.
-     
 
-Profound lessons: 
-1. We have ideas before we understand them. That is, when you have an idea, you actually must explore it and try it out before you know what you actually meant by the thought. 	
+Profound statements: 
+1. We have ideas before we understand them. That is, when you have an idea, you actually must explore it and try it out before you know what you actually comprehend what you meant. 	
 2. We often cannot run understand code by reading it. We must run the code or do it out by hand. 
 3. Probably, you don't understand the code you wrote, you must do the code to understand it.
 
