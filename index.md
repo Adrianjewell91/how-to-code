@@ -32,45 +32,46 @@ This may be self evident, from the previous statement, but it’s actually not. 
 Now, another thing that is probably true about your app is this:
 
     As a user, I DO NOT want other people to be able to view my emails.  
+
 This might also be implied by the original statement, but it’s really not. Once again, in today’s world, people generally assume that emails are private and confidential, but it’s very possible that this particular App does not treat emails as confidential information. Therefore, we must once again clarify. 
 
 At this point, it is possible to see that this kind of clarification of requirements could go on further, perhaps with something like this:
 
-As a user, I want to view my emails…
+    As a user, I want to view my emails…
             FROM ANYWHERE IN THE WORLD,
             AND THEY SHOULD LOAD QUICKLY,
             AND ANY EMAIL I RECEIVE SHOULD NOT BE CHANGEABLE AFTER I RECEIVE IT.
 
 And this does happen in the real world. In fact, all of these additional requirements are very interesting and challenging software problems that engineers have worked on for years. For now, however, we will not tackle these additional things. In fact, this process of question clarification is not even the key skill in software engineer (rather, it’s simply critical thinking), but a software engineer must engage in this line of inquiry for sake of arriving at an answer to the original goal: how to view a problem in terms of inputs and outputs. In the case of this example:
 
-INPUTS (Username and Password) -> OUTPUTS (The Emails associated with the Username)
+    INPUTS (Username and Password) -> OUTPUTS (The Emails associated with the Username)
 
 The reader should now see how the original line of inquiry led the software engineer to decide on these inputs and outputs. In case they are not clear, a brief explanation is as follows. The engineer chose the username and password because these are unique identifiers to the user. That is, they identify the user in such a way that every user is distinguishable from every other user. In this way, the App can filter for only the emails associated with the user and exclude the others. The password, similarly, is the way that the user verifies that the user is in fact the user. In this way, only a user him/herself can view the emails associated with them. Having explained this, it is possible to see how the choice of a username and password is at least one possible way to fulfill the requirements. 
 
 This is a very interesting example, for several reasons. Firstly, it is interesting because the reader can see how even something as simple as an email application can require some concerted thinking. Secondly, it is the author’s hope to give a lay reader some insight into software applications that an average person probably uses multiple times a day.  Thirdly, the reader can see how something as commonplace as logging-in is something about which engineers seriously reasoned.  Mostly, importantly, however, this introduction to problem solving demonstrations the first of a series of steps, which we will call: 
 
-1. CLARIFY THE PROBLEM
+    1. CLARIFY THE PROBLEM
 
 Clarifying the problem is the first of five steps in a problem solving process that any programmer will go through when they write a computer program.  The remaining steps are as follows:
 
-1. WRITE TEST CASES
-2. BRAINSTORM STRATEGIES
-3. PICK A STRATEGY
-4. WRITE PSEUDO-CODE
-5. WRITE CODE
-6. VERIFY/TEST (ACTUALLY IS DONE THROUGHOUT THE WHOLE PROCESS)
+    1. WRITE TEST CASES
+    2. BRAINSTORM STRATEGIES
+    3. PICK A STRATEGY
+    4. WRITE PSEUDO-CODE
+    5. WRITE CODE
+    6. VERIFY/TEST (ACTUALLY IS DONE THROUGHOUT THE WHOLE PROCESS)
 
 It will take a little bit of time to explain this process, but rest assured that if you master this process, you can become a software engineer.  You may have noticed that this list begins with “1. WRITE TEST CASES”. Isn’t “CLARIFY THE PROBLEM” the first step? In actuality, these steps are one and same, but under slightly different names. Continuing with our example will illustrate this point. Consider that the engineer building the web app has arrived at the decision from before: where user inputs a username and password, and the user’s emails are returned to the user. Is this enough information to begin writing a computer program?
 
 If you thought the answer is “yes”, then you are clearly a very thorough thinker, because that would mean that you had already come up with answers to a variety of questions that must be answered before any programmer can build this app. Some of these are:
 
-What is a valid username?
-What is a valid password?
+    What is a valid username?
+    What is a valid password?
 
-What happens when invalid credentials are entered?
-What happens when empty credentials are entered?
+    What happens when invalid credentials are entered?
+    What happens when empty credentials are entered?
 
-How many of the users emails do we want to return? 
+    How many of the users emails do we want to return? 
 
 In fact, a computer programmer must answer these question before building the application. Why is that? Well, it’s because there is more than one answer to these question. Certainly, the engineer must decide what to do, and there may be even more questions worth asking and answering. Given the fact of the matter, one might notice that these questions are slightly more specific than the original questions we were asking earlier. Therefore, they might fall under the category of “TEST CASES” rather than “CLARIFYING THE QUESTION,” but in actuality, they are very closely related to one another. Writing these tests cases is extremely important, perhaps the most important part of computer programming, and later on this in this course, we will dive deeper into strategies that ensure you have met all test cases for a problem. 
 
@@ -80,36 +81,36 @@ To illustrate the remaining five steps. We are going to use a different example 
 
 The problem I’d like to tackle is that of deciding whether two numbers add up to a third number. This may sound like an astonishingly simple task, but that is a good thing, because it will allow us to concentrate solely on the problem-solving process. Now, let us recall that the goal of the engineer is to transform the problem into a series of inputs and outputs:
 
-INPUTS -> OUTPUTS
+    INPUTS -> OUTPUTS
 
 In this case, there aren’t too many clarifying questions that need to be answered. Probably, we can assume that numbers are real numbers. They can be positive or negative, or zero. We can assume the addition operator works as we normally expect it to work. So these are some assuring assumptions. Now, we must accomplish the task, and probably we would arrive at something like this:
 
-Three numbers (a, b, c) -> True or False
+    Three numbers (a, b, c) -> True or False
 
 This should make sense. We have two numbers, and we want to know if they add up to the third number, and so the answer we want is either a “Yes” (True) or “No” (False). 
 
 Now, to prove that we understand this, we must write some test cases that demonstrate our command of the problem, for example this one:
 
-1,2,3 => True 
+    1,2,3 => True 
 
 We know this to be true because one plus two equals three. Here is another one:
 
-3,4,10 => False 
+    3,4,10 => False 
 
 And a few more:
 
--3, 0, 3 => False 
--4, -4, -8 => True
+    -3, 0, 3 => False 
+    -4, -4, -8 => True
 
 This seems like a relatively straightforward and maybe redundant practice, but it is actually very important this reason: sometimes we don’t know how to get the outputs from the inputs. This can happen for several reasons, and if you continue with the course, you will learn about those situations, and what to do about them. But in all cases, what engineers need to do is come up with more test cases. In the first part of this course, we will cover strategies that make sure you come up with all possible test cases. For the time being, we can be satisfied with the above test cases. 
 
 The next step is to brainstorm strategies. Maybe, in your mind, there is only one strategy, but to an engineer, there is always more than one way to do something. Here are a few ideas:
 
-1. Add the two numbers together, and compare the sum with the third number.
+    1. Add the two numbers together, and compare the sum with the third number.
 
 This is one way to do it, but here is another way.
 
-2. Subtract the second number from the third number, and compare it with the first number	
+    2. Subtract the second number from the third number, and compare it with the first number	
 
 This solution is equally valid. Some of you might think these two solutions are the same. Fundamentally, they accomplish the same thing, but they are not the same solution because they are doing different mathematical operations, and this might be an important detail for an engineer. We will see why when we get further down in the process. Lastly, it is important to note that while this problem had two very obvious solutions, there might certainly be more solutions, and in practice, coming up with solutions is never this simple. The corresponding chapter in this course will cover strategies to come up with the solutions when no solutions come to mind. The technique for doing this are perhaps the most powerful techniques you can learn from this course, and it is still a field that I personally feel is an area for significant academic research. 
 
@@ -117,17 +118,19 @@ For now, we can be satisfied with these two solutions. The next step in the proc
 
 We will pick the first solution, and at this point, we come to the fourth steps: that of writing pseudo code. Finally, a step involving the word “code” - but only pseudo-code. That is, code that is not really code, but more of an in-between of English and the high level programming languages we know of today, such as Python, Javascript, Ruby, Java, etc. For our solution, we would probably describe it with the following:
 
-1. numbers a, b, c
-2. d = a + b 
-4. return d == c
+    1. numbers a, b, c
+    2. d = a + b 
+    4. return d == c
 
 In line one, we recognize that we have three numbers. In line two, we get the sum of the numbers, and in line three, we give the answer. This is pseudo because it looks like code, but isn’t formal syntax of a particular programming language.  In other words, it’s basically code if we could be ultra lazy in the way we wrote code. At this point, it’s fair to say that the engineer probably needs be at least familiar with coding to write the above statement. They should probably have taken a codeAcademy course on a programming language of their choice in order to be familiar with this kind of writing. But this shouldn’t be too hard to do, because that will take approx. 30 hrs or so, and then you will have learned how any major programming language is written. At that point, it won’t be hard to write pseudo-code. At the same time, getting to writing peusdo can actually be one of the hardest things to do throughout this process, and we will tackle strategies for writing later on. 
 
 Lastly, one must turn the pseudo code into real code. In order to do this, one must actually know how to code, and having some fluency with the language syntax and knowledge of running code will be required to run the program.  For a student, they might write something like this:
 
-function TwoNumbersAddToThree(a ,b, c) {
-    return a + b === c;
-}
+    function TwoNumbersAddToThree(a ,b, c) {
+        return a + b === c;
+    }    function TwoNumbersAddToThree(a ,b, c) {
+        return a + b === c;
+    }
 
 This is an implementation of the function in the programming language javascript. Even without any formal study in programming languages, the average reader can probably grasp how this function works, and how it relates to the peusdo-code above. If that is the case, then the read should be encouraged by this new ability they have discovered.  However, if the connection was not apparent, then it would be important for you take a CodeAcademy course on Python or Javascript, or another language of your choice to get a grip on basic syntax before you dive any deeper into this course. It will not be important for the student to be skilled at programming to appreciate this course, but it will be necessary for the student to understand the foundations of how to write code. At very least, the student should be able to see how this function is derived from the pseudo-code above. Later on in the course, we will see that the process of translating pseudo code into real code can still be a very arduous process, requiring hours of research into programming languages, or understanding the machine that will ultimately run the code. 
 
