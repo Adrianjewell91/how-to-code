@@ -1,6 +1,6 @@
-HOW_TO_CODE
+For the Lay Audience: How Computer Programmers Think 
 
-Introduction (Know)
+*Introduction (Know)*
 
 There is no doubt that software engineers are in high demand. As a case in point, the website LinkedIn.com, posted 335,000 software engineer jobs last weekend in the United States. But despite the abundance of excellent online curriculum that is freely available, it is not easy to learn to code. One reason, among many, is that it is hard to pick the right curriculum. How can somebody trust that their curriculum is trustworthy? There isn’t a clear answer.
 In fact, today on the internet, there are a lot of courses about how to code. On Udemy, there are 10000 results given a search for “coding.” On Google, a search for “learn to code” will return 7,020,000,000 results. These numbers show that there is a lot of information for a student of coding. Even for an eager student, it would take too long to sift through this library of knowledge. 
@@ -15,7 +15,7 @@ The truth is: the majority of online coursework teaches you very specific skills
 “Build a Javascript Web Application in seven days”. 
 While these courses are useful, they only teach a specific programming skill. If you study the information in this book, then you will be able to learn any of the skills mentioned above, and more, in a very short time, without any hand-holding that usually happens in courses. That will make you very powerful. 
 
-The Process:
+*The Process:*
 
 The fundamental skill is software engineering is learning how to thinking about problems in terms of inputs and outputs:
 
@@ -112,7 +112,9 @@ This is one way to do it, but here is another way.
 
     2. Subtract the second number from the third number, and compare it with the first number	
 
-This solution is equally valid. Some of you might think these two solutions are the same. Fundamentally, they accomplish the same thing, but they are not the same solution because they are doing different mathematical operations, and this might be an important detail for an engineer. We will see why when we get further down in the process. Lastly, it is important to note that while this problem had two very obvious solutions, there might certainly be more solutions, and in practice, coming up with solutions is never this simple. The corresponding chapter in this course will cover strategies to come up with the solutions when no solutions come to mind. The technique for doing this are perhaps the most powerful techniques you can learn from this course, and it is still a field that I personally feel is an area for significant academic research. 
+This solution is equally valid. Some of you might think these two solutions are the same. Fundamentally, they accomplish the same thing, but they are not the same solution because they are doing different mathematical operations, and this might be an important detail for an engineer. We will see why when we get further down in the process. Lastly, it is important to note that while this problem had two very obvious solutions, there might certainly be more solutions. The corresponding chapter in this course will cover strategies to come up with the solutions when no solutions come to mind. The technique for doing this are perhaps the most powerful techniques you can learn from this course, and it is still a field that I personally feel is an area for significant academic research. 
+
+In practice, coming up with solutions can be hard because requires the engineer to introspect into their mind and be able to express, in words, how the inputs were transformed into the outputs. There are many strategies to help with this process, and they are outlined and the end of the chapter. This step is the most important, and it is both a creative and disciplinary process - the former because insight is required, and the latter because attention to detail is required to put that insight completely into words. 
 
 For now, we can be satisfied with these two solutions. The next step in the process is to pick one of them. In order to accomplish this, we must weigh the trade offs of each solution. When evaluating solutions, there will usually be pros and cons of each, and software, there will usually be a trade off in terms of how quickly the solution will run. This is common metric because people care about fast their computer programs run. In this particular case, it is very possible that one of these solutions will run faster than the other because of the mathematical operations being performed. That is, sometimes an addition operation will happen faster than a subtraction operation on a computer. This may a trivial performance increase on a modern machine, but imagine a hypothetical scenario from a time in the past, where the difference would be significant. In that case, there is a very good reason to pick one solution over the other. All in all, it is simply enough to know that this kind of weighing takes place in the problem solving process, and it’s important to know what the tradeoffs might be when picking a solution.
 
@@ -126,11 +128,9 @@ In line one, we recognize that we have three numbers. In line two, we get the su
 
 Lastly, one must turn the pseudo code into real code. In order to do this, one must actually know how to code, and having some fluency with the language syntax and knowledge of running code will be required to run the program.  For a student, they might write something like this:
 
-    function TwoNumbersAddToThree(a ,b, c) {
-        return a + b === c;
-    }    function TwoNumbersAddToThree(a ,b, c) {
-        return a + b === c;
-    }
+    function TwoNumbersAddToThree(a, b, c) {
+        return (a + b) === c;
+    }   
 
 This is an implementation of the function in the programming language javascript. Even without any formal study in programming languages, the average reader can probably grasp how this function works, and how it relates to the peusdo-code above. If that is the case, then the read should be encouraged by this new ability they have discovered.  However, if the connection was not apparent, then it would be important for you take a CodeAcademy course on Python or Javascript, or another language of your choice to get a grip on basic syntax before you dive any deeper into this course. It will not be important for the student to be skilled at programming to appreciate this course, but it will be necessary for the student to understand the foundations of how to write code. At very least, the student should be able to see how this function is derived from the pseudo-code above. Later on in the course, we will see that the process of translating pseudo code into real code can still be a very arduous process, requiring hours of research into programming languages, or understanding the machine that will ultimately run the code. 
 
@@ -140,31 +140,35 @@ If you test your code, and it works. Then congrats! You solve a problem. It is r
 
 Some reader say think that the information presented thus far is common knowledge, or widely available already. That is all true, but that is precisely why this content is part of the course’s the introduction. Rather, the aim of the actual course is to technique cognitive techniques and theory that will allow the engineer to effortlessly do the process, and do it well. 
 
-(WANT TO KNOW) 
+*An Exercise: (WANT TO KNOW)*
+
 Think of a problem you have yourself in your life and want to solve, and go through this problem solving process. Can you think of the problem in terms of inputs and outputs? Where do you get stuck in the process? What gets you unstuck? Write all of this down on paper and reflect on it in a journal entry. Answer these questions and gives examples to yourself. It could be any kind of problem, anything from a math problem to a philosophy problem. 
 
-(LEARNED)
+*Strategies: (LEARNED)*
 
-Strategies that help with The various stages in the problem solving process:
+Strategies that help with the various stages in the problem solving process:
 
-1. Clarifying the problem and generating test cases: Lots of situations where people point out a test case that you hadn’t thought of yourself, and you feel embarrassed that you didn’t think of that yourself. 
-2. Coming up with strategies. Coming up with more test cases, and trying to walk through, in your head, the steps that led from the inputs to the outputs.  If you hadn’t visualize it or explain it, then do simpler test cases and gradually get more complex. Come up with the simplest set of inputs and explanation for it, and then build out gradually more complete set of test cases and a solution to that set. 
+1. Clarifying the problem and generating test cases: 
+    - Put yourself in lots of situations where people point out a test case that you hadn’t thought of yourself, and you feel embarrassed that you didn’t think of that yourself. Then you will remember to think "outside the box" next time.
+    - Question the assumptions you are making about the problem.
+2. Coming up with strategies:
+    - Think of more test cases. If you can't visualize the steps or explain it, then do simpler test cases and gradually get more complex. Come up with the simplest set of inputs and explanation for it, and then build out gradually more complete set of test cases and a solution to that set.
+    - Write it out: Write out the steps that your mind takes in English. Write it all down. 
+    - Draw Pictures (Why is bubble sort called bubble sort?)
+    - Subdivide the problem: If you can get "halfway" to the answer, then that is a good start. Try to break the problem into smaller chunks. 
+    - If you have an idea: Flesh it out and explore the idea to see what happens. 
 3. Pick a solution: Be evaluated on your judgement many times over and over again. Learn about Time and Space Complexity.
 4. Pseudo-Code: Lots of coding and reading solutions.
 5. Code and Test: Lots of coding and reading solutions. 
-
-Other strategies:
-1. Subdivide the problem.
-2. Debug the code
-3. Do the code out on paper. 
-4. Come up with more test cases. 
+    - Take a Code Syntax Course of Codecademy.com
+    - If your code doesn't work, debug the code by putting print statements at various places in the code.
+    - If you're reading a solution and you don't understand it, do the code out on paper. Do not take shortcuts. "Doing the code" means stepping through the code, line by line, tracking all the variables. If you do this, you will understand the code, and you will gain insight.
+     
 
 Profound lessons: 
-1. We have ideas before we understand them. That is, when you get an idea, you actually must explore it and try it out before you know what you actually meant by the thought. 	
+1. We have ideas before we understand them. That is, when you have an idea, you actually must explore it and try it out before you know what you actually meant by the thought. 	
 2. We often cannot run understand code by reading it. We must run the code or do it out by hand. 
-3. Use the print statement to understand it. 
-
-
+3. Probably, you don't understand the code you wrote, you must do the code to understand it.
 
 
 
