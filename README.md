@@ -1,5 +1,7 @@
 # For the Lay Audience: How Computer Programmers Think 
 
+by Adrian Jewell (www.adrianjewell.com)
+
 *Introduction (Know)*
 
 There is no doubt that software engineers are in high demand. As a case in point, the website LinkedIn.com, posted 335,000 software engineer jobs last weekend in the United States. But despite the abundance of excellent online curriculum that is freely available, it is not easy to learn to code. One reason, among many, is that it is hard to pick the right curriculum. How can somebody trust that their curriculum is trustworthy? There just isn’t a clear answer.
