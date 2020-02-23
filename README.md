@@ -204,7 +204,7 @@ Strategies that help along the various stages in the problem solving process:
 
         How this is exactly accomplished by the mind is an academic interest for the author, but at this point, the only gauranteed way to do it is to subdivide the problem. This is the next technique to employ when having trouble coming up with strategies.
 
-        Subdivision can be two things. Firstly, it can be used to explain how the above partricular series of edge cases is a subclass of a large series of test cases (albeit, only two more). 
+        Subdivision can be two things. Firstly, it can be used to explain how the above partricular series of edge cases is a subclass of a larger series of test cases (albeit, only two more). 
 
             [2, -1, 1] => [1, -1, 2]
             [3, -1, 2] => [2, -1, 3] 
