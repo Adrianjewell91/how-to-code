@@ -125,8 +125,6 @@ And a few more:
     -3, 0, 3 => False 
     -4, -4, -8 => True
 
-
-
 Generating test cases in necessary and important. This is mainly because in real problems the engineer doesn't know how to transform the data from the inputs to the outputs. This being a simple problem, the reader can easilier see the answer, but that won't always be true. When this happens, the engineers needs to come up with more test cases, and often simpler ones. It may also be necessary to subdivide the problem. For the time being, we can be satisfied with the above test cases.
 
 The next step is to brainstorm strategies. Maybe, in your mind, there is only one strategy, but to an engineer, there is always more than one way to do something. Here are a few ideas:
@@ -255,5 +253,4 @@ Strategies that help along the various stages in the problem solving process:
     - Second, if figuring out the code is a challenge, try letting an idea pop into your head. It will usually be just an inkling, so be sure to flesh it out as completely as possible.  The truth is that people have ideas before they understand them. Therefore, strive to implement ideas that come to mind, and seek to understand completely. For better or worse, this will probably involve debuging the code. 
     - When an ambiguity in syntax comes up, then use one's research skills to find the answer. This ususally involves reading stackoverflow.com or using the documentation for the programming language of ones choice.
     - Additionally, a technique for reading solutions is to do the code out on paper. Do not take shortcuts. "Doing the code" means stepping through the code, line by line, tracking all the variables. If you do this, you will understand the code, and you will gain insight. The truth is that we often cannot understand code by reading it. We must debug the code or do it out by hand. 
-    - Study everything about the machine that will run the program. In todays era, that machine is the personal computer. Understanding the machine that run your program will make it easier for you to program them.
-	
+    - Study everything about the machine that will be running the program. In today's era, that machine is the personal computer. Understanding the machine that run your program will make it easier for you to program them.
