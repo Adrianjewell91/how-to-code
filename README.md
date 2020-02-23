@@ -188,7 +188,7 @@ Strategies that help along the various stages in the problem solving process:
     - Ask clarifying questions and assume nothing.
     - Put yourself in a lot of situations where peers point out a test case that you hadn’t thought of yourself, and deal with the embarrassment that you didn’t think of it yourself. 
 2. Coming up with strategies:
-    - Think of more test cases and observe how they are similar to each other. Find the patterns. Write them down. If all of the test cases share something in common, then that information could be useful in how to get the inputs from the outputs.  Test out the observation by seeing if there is a way to explain how the output comes from the input, in terms of the observed similarity.  
+    If it is hard to come up with strategy, think first of more test cases and observe how they are similar to each other. Find the patterns. Write them down. If all of the test cases share something in common, then that information could be useful in how to get the inputs from the outputs.  Test out the observation by seeing if there is a way to explain how the output comes from the input, in terms of the observed similarity.  
     For example, lets say that I want to write some code that passes these three test cases, only these test cases, and no other test cases:
         
             [2, -1, 1] => [1, -1, 2]
@@ -244,22 +244,13 @@ Strategies that help along the various stages in the problem solving process:
         
         That is to say, if my manager asked me as to write software that did exactly as the aforemention strategy under analysis did, I would find someone who already wrote it online and just use that, because why would I need to reinvent the wheel? But, in the situation that I can only use a restricted resource, namely, only the programming language and no outside tools, I would have to write a program. As it turns out, I would have to subdivide my code into the chunks of code that the programming language is capable of doing.
     
-        In other words, software engineers use subdivision to break a strategy down into logical steps they can code, and they use insights drawn from their observations of reality and the world to lend them insight into ways of subdividing the problem. Some of that may or may not have made sense, but the key takeaway is the importance of subdivision, and self-awareness.
+        In other words, software engineers use subdivision to break a strategy down into logical steps they can code, and they use insights drawn from their observations of reality and the world to lend them insight into ways of subdividing the problem. Some of that may or may not have made sense, but hopefully it is clear that strategizing is very cognitive..
 
-    - If you have an idea, no matter how vague or wierd: Flesh it out and explore the idea to see what happens. 
 3. Pick a solution: Be evaluated on your judgement many times over and over again. Learn about Time and Space Complexity.
-4. Pseudo-Code: Lots of coding and reading solutions.
-5. Code and Test: Lots of coding and reading solutions. 
-    - Take a Programming Langauge Course on Codecademy.com.
-    - If your code doesn't work, debug the code by putting print statements at various places in the code to see the state of the program at that moment in time.
-    - If you're reading a solution and you don't understand it, do the code out on paper. Do not take shortcuts. "Doing the code" means stepping through the code, line by line, tracking all the variables. If you do this, you will understand the code, and you will gain insight.
+5. Implement and Test: Lots of coding and reading solutions.
+    - First, take a Programming Langauge Course on Codecademy.com.
+    - Second, if figuring out the code is a challenge, try letting an idea pop into your head. It will usually be just an inkling, so be sure to flesh it out as completely as possible.  The truth is that people have ideas before they understand them. Therefore, strive to implement ideas that come to mind, and seek to understand completely. For better or worse, this will probably involve debuging the code. 
+    - When an ambiguity in syntax comes up, then use one's research skills to find the answer. This ususally involves reading stackoverflow.com or using the documentation for the programming language of ones choice.
+    - Additionally, a technique for reading solutions is to do the code out on paper. Do not take shortcuts. "Doing the code" means stepping through the code, line by line, tracking all the variables. If you do this, you will understand the code, and you will gain insight. The truth is that we often cannot understand code by reading it. We must debug the code or do it out by hand. 
     - Study everything about the machine that will run the program. In todays era, that machine is the personal computer. Understanding the machine that run your program will make it easier for you to program them.
-6. Always be testing your ideas along the way. Do you have an idea? Test it with a new test case.
-
-Profound statements: 
-1. We have ideas before we understand them. That is, when you have an idea, you actually must explore it and try it out before you know what you actually comprehend what you meant. 	
-2. We often cannot run understand code by reading it. We must run the code or do it out by hand. 
-3. Probably, you don't understand the code you wrote, you must do the code to understand it.
-
-
-
+	
