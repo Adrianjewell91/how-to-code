@@ -204,7 +204,7 @@ Strategies that help along the various stages in the problem solving process:
 
         How this is exactly accomplished by the mind is an academic interest for the author, but at this point, the only gauranteed way to do it is to subdivide the problem. This is the next technique to employ when having trouble coming up with strategies.
 
-        Subdivision can be two things. Firstly, it can be used to explain how this partricular series of edge cases is really a subclass of a large series of test cases. 
+        Subdivision can be two things. Firstly, it can be used to explain how the above partricular series of edge cases is a subclass of a large series of test cases (albeit, only two more). 
 
             [2, -1, 1] => [1, -1, 2]
             [3, -1, 2] => [2, -1, 3] 
@@ -215,7 +215,7 @@ Strategies that help along the various stages in the problem solving process:
 
         The first three tests are identical for the formers, and the next two are new cases of inputs and outputs. 
     
-        Let us again make some observations. The new test cases are similar in structures (length, contain a -1, output is swapped, -1 does not move), but are also different in a single way: the placement of the -1. Pondering this fact, it should lead the problem solving to arrive at the observation that while the -1 might be placed elsewhere, the other two numbers to still simply swapped with one another. 
+        Let us again make some observations. The new test cases are similar in structures (length, contain a -1, output is swapped, -1 does not move), but are also different in a single way: the placement of the -1. Pondering this fact, it should lead the problem solver to arrive at the observation that while the -1 might be placed elsewhere, the other two numbers to still simply swapped with one another. 
         
         But now, how to put all of this together into a pattern that accurately describes all of the test cases? How about:
 
