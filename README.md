@@ -2,11 +2,12 @@ For the Lay Audience: How Computer Programmers Think
 
 *Introduction (Know)*
 
-There is no doubt that software engineers are in high demand. As a case in point, the website LinkedIn.com, posted 335,000 software engineer jobs last weekend in the United States. But despite the abundance of excellent online curriculum that is freely available, it is not easy to learn to code. One reason, among many, is that it is hard to pick the right curriculum. How can somebody trust that their curriculum is trustworthy? There isn’t a clear answer.
+There is no doubt that software engineers are in high demand. As a case in point, the website LinkedIn.com, posted 335,000 software engineer jobs last weekend in the United States. But despite the abundance of excellent online curriculum that is freely available, it is not easy to learn to code. One reason, among many, is that it is hard to pick the right curriculum. How can somebody trust that their curriculum is trustworthy? There just isn’t a clear answer.
+
 In fact, today on the internet, there are a lot of courses about how to code. On Udemy, there are 10000 results given a search for “coding.” On Google, a search for “learn to code” will return 7,020,000,000 results. These numbers show that there is a lot of information for a student of coding. Even for an eager student, it would take too long to sift through this library of knowledge. 
 This course is the solution to this problem. I am a software engineer with several years of experience, and I wrote this course to give students the most important knowledge for learning to do software engineering. Personally, I got into coding through a bootcamp, then I worked in the industry, and also worked full time as a coding instructor. During this time, I learned something very valuable:
 
-    If you learn to think correctly, you can teach yourself anything that is programming-related very easily.
+    Learning to think correctly will allow the student to easily teach him/herself anything programming-related.
 
 The truth is: the majority of online coursework teaches you very specific skills, but it doesn’t teach you how to think correctly. Just do a search on Google. You will see that all courses have titles like: 
 “Intro to Python”,
