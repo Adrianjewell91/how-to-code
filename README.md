@@ -1,4 +1,4 @@
-For the Lay Audience: How Computer Programmers Think 
+# For the Lay Audience: How Computer Programmers Think 
 
 *Introduction (Know)*
 
