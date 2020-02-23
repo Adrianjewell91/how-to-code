@@ -187,6 +187,7 @@ Strategies that help along the various stages in the problem solving process:
 
 1. Clarifying the problem and generating test cases, respectively: 
     - Ask clarifying questions and assume nothing.
+    - Read about edge and race cases, and come up with them.
     - Put yourself in a lot of situations where peers point out a test case that you hadn’t thought of yourself, and deal with the embarrassment that you didn’t think of it yourself. 
 2. Coming up with strategies:
     - If it is hard to come up with strategy, think of easier test cases, then find rules that describes every single test case. That is, if all of the test cases share something in common, then that information could be useful in how to get the inputs from the outputs.  Test out the observation by seeing if there is a way to explain how the output comes from the input, in terms of the observed similarity.  
