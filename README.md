@@ -6,11 +6,11 @@ by Adrian Jewell (www.adrianjewell.com)
 
 *Introduction (Know)*
 
-This treatise contains everything the lay persons needs to know about how to become a software engineer. There is no doubt that software engineers are in high demand. As of late, the website LinkedIn.com, posted 335,000 software engineer jobs last weekend in the United States. It is the author's position that while there are there are 10000 coding courses on Udemy, and 7,020,000,000 results on Google, the author's opinions contained therein are the gems of knowledge one needs to develop skills in computer programming.
+This treatise contains everything the lay persons needs to know about how to become a software engineer. There is no doubt that software engineers are in high demand. As of late, the website LinkedIn.com, posted 335,000 software engineer jobs last weekend in the United States. It is the author's position that while there are there are 10000 coding courses on Udemy, and 7,020,000,000 results on Google, the opinions contained therein are the gems of knowledge one needs to develop skills in computer programming.
 
-Trust my opinion. I am a software engineer with several years of experience, and I wrote this article to give students the most important knowledge for learning to do software engineering. Personally, I taught myself to code is a child, studied music in school, then did a coding bootcamp later on. I worked in the industry, and also worked full time as a coding instructor. During this time, I learned something very valuable:
+Trust in the author's opinion. He is a software engineer with several years of experience, and also a alummni of the AmeriCorps. He taught myself to code is a child, studied music in school, then did a coding bootcamp later on. He worked in the industry, and also worked full time as a coding instructor. During this time, he learned something very valuable:
 
-    Planning correctly will allow the student to easily teach him/herself anything programming-related.
+    Planning correctly will allow the problem solver to easily teach him/herself anything programming-related.
 
 The truth is that while the majority of online coursework teaches very specific and some highly marketable skills, they don't teach how programmers think. Just do a search on Google, and see the plethora of courses with titles like: 
 “Intro to Python”,
@@ -261,3 +261,12 @@ As a side note, what the reader just learned regarding challenge of subdividing 
 At the same time, for a very knowledgeable reader, it will occur to the them that the subdivisions being described could in fact be subdivided more, perhaps into physical movements of the body or eyes, ad infinitum. It is the engineers job to know that this particular series of instruction is best suited for trasnforming into code, and any software engineer is have this knowledge from simply learning to code. 
 
 So there, subdivision highlights the ways in which the engineer reaches an understand of their mental processes as they transform inputs to outputs. It also brings the engineer closer to the 'code', so to speak, so that implementing the strategy becomes easier. Certainly, the journey doesn't stop here for the engineer. In fact, it  just began, for the task ahead is now to implement their strategy. But as wise people have said, "Where there is a will, there is a way," so the engineer is not worried about how he or she will realize the vision. The programmer trusts in their research skills and resourcefullness.
+
+Still, there are certain strategies the engineers employ while learning to code that are worth mentioning briefly. The first is debugging. When debugging, the engineer look at code very closely while it is running. This is a supremely important skill to master. The second skill is doing code on paper. The profound truth about software engineering is the software often cannot be understood when it is read or conceived. Therefore, the engineer must actually run the code on a piece of paper, step by step, inorder to fully understand the code. Literature for how to accomplish these two technique abounds, so the author will simply highlight their common usage when an engineer writes code or is learning the workings of a computer program written by somebody else. The tips below will help an individual get started in coding.
+
+Tips to Get Started:
+
+1. Take a free online coding course (Codecademy.com is good, python or javascript are good to start). 
+2. Ask an engineer to teach you how to: debug, do code on paper, and "research documentation."
+3. Do problems on leetcode.com and codesignal.com ( for codesignal: arcade or interview problems).
+4. Apply this problem solving process to the problems.
