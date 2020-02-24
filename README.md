@@ -8,7 +8,7 @@ by Adrian Jewell (www.adrianjewell.com)
 
 This treatise contains everything the lay person needs to know about how to become a software engineer. There is no doubt that software engineers are in high demand. As of late, the website LinkedIn.com, posted 335,000 software engineer jobs last weekend in the United States. It is the author's position that while there are there are 10000 coding courses on Udemy, and 7,020,000,000 results on Google, the opinions contained therein are the gems of knowledge one needs to develop skills in computer programming.
 
-Trust in the author's opinion. He is a software engineer with several years of experience, and also a alummni of the AmeriCorps. He taught myself to code is a child, studied music in school, then did a coding bootcamp later on. He worked in the industry, and also worked full time as a coding instructor. During this time, he learned something very valuable:
+Trust in the author's opinion. He is a software engineer with several years of experience, an alumni of the AmeriCorps, and a concert pianist turned composer. He taught himself to code as a teenager, and did a coding bootcamp later several years ago to help himself break into the field. He worked in the industry, and also worked full-time as a coding instructor. During this time, he learned a valuable lesson:
 
     Planning correctly will allow the problem solver to easily teach him/herself anything programming-related.
 
@@ -17,7 +17,7 @@ The truth is that while the majority of online coursework teaches very specific 
 “Intro to Machine Learning”, 
 “Working with Kubernetes”, 
 “Build a Javascript Web Application in seven days”. 
-While these courses are useful and necessary, they teach the how but not the why or what. Instead, study the information in container herein, and you will learn how to master any of the skills mentioned above, and more, in a very short time, without any hand-holding that usually happens in courses. That will make you very powerful. 
+While these courses are useful and necessary, they teach the how but not the why or what. Instead, study the information in container herein, and you will be able to master any of the skills mentioned above, and more, in a very short time, without any hand-holding that usually happens in courses. That will make you very powerful. 
 
 *The Process:*
 
