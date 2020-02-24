@@ -174,7 +174,7 @@ Despite any challenges when going from pseudo-code to code, it is still the most
 
 Debugging takes takes an inquisitive mind, that of an inspector. In fact, amongst all the parts of building software, this particular process is the most stimulating for me, personally. There just something about the hunt for a bug. It is like that need to stractch an itch: the urge to scratch fills the body with energy and makes the body make the scratch, even if that person is really tired and does not want to move at all.
 
-Finally, if you test your code, and it works. Then congrats, you solved a problem! It is recommended to solve one hundred and fifty of these problems (Go onto either Codesignal.com or Leetcode.com). If you do that, and keep practicing until you can solve medium-level problems within forty-five minutes, then consider yourself a skilled coder, and apply for a job as a software engineer. Of course, that number is a rough estimate, casually recalled by the author as the number of LeetCode.com problems that the company Google thinks an aspiring engineer should solve before one is ready to interview. 
+Finally, if you test your code and it works, then congrats, you solved a problem! It is recommended to solve one hundred and fifty of these problems (Go onto either Codesignal.com or Leetcode.com). If you do that, and keep practicing until you can solve medium-level problems within forty-five minutes, then consider yourself a skilled coder, and apply for a job as a software engineer. Of course, that number is a rough estimate, casually recalled by the author as the number of LeetCode.com problems that the company Google thinks an aspiring engineer should solve before one is ready to interview. 
 
 *An Exercise: (WANT TO KNOW)*
 
