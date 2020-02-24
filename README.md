@@ -2,6 +2,8 @@
 
 by Adrian Jewell (www.adrianjewell.com)
 
+(Thank you for reading!)
+
 *Introduction (Know)*
 
 This treatise contains everything the lay persons needs to know about how to become a software engineer. There is no doubt that software engineers are in high demand. As of late, the website LinkedIn.com, posted 335,000 software engineer jobs last weekend in the United States. It is the author's position that while there are there are 10000 coding courses on Udemy, and 7,020,000,000 results on Google, the author's opinions contained therein are the gems of knowledge one needs to develop skills in computer programming.
@@ -258,4 +260,4 @@ As a side note, what the reader just learned regarding challenge of subdividing 
 
 At the same time, for a very knowledgeable reader, it will occur to the them that the subdivisions being described could in fact be subdivided more, perhaps into physical movements of the body or eyes, ad infinitum. It is the engineers job to know that this particular series of instruction is best suited for trasnforming into code, and any software engineer is have this knowledge from simply learning to code. 
 
-So there, subdivision highlights the ways in which the engineer reaches an understand of their mental processes as they transform inputs to outputs. It also brings the engineer closer to the 'code', so to speak, so that implementing the strategy becomes easier. Certainly, the journey doesn't stop here for the engineer, for now the task lay ahead of the them the task to implement their strategy.  But as many wise people have said, "Where there is a will, there is a way," so the engineer is not worried about how he or she will realize the vision if they are 100% sure of what it is and that they want to achieve it. 
+So there, subdivision highlights the ways in which the engineer reaches an understand of their mental processes as they transform inputs to outputs. It also brings the engineer closer to the 'code', so to speak, so that implementing the strategy becomes easier. Certainly, the journey doesn't stop here for the engineer. In fact, it  just began, for the task ahead is now to implement their strategy. But as wise people have said, "Where there is a will, there is a way," so the engineer is not worried about how he or she will realize the vision. The programmer trusts in their research skills and resourcefullness.
