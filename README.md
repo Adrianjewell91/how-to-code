@@ -17,7 +17,7 @@ The truth is that while the majority of online coursework teaches very specific 
 “Intro to Machine Learning”, 
 “Working with Kubernetes”, 
 “Build a Javascript Web Application in seven days”. 
-While these courses are useful and necessary, they teach the how but not the why or what. Instead, study the information in container herein, and you will be able to master any of the skills mentioned above, and more, in a very short time, without any hand-holding that usually happens in courses. That will make you very powerful. 
+While these courses are useful and necessary, they teach the how but not the why or what. Instead, study the information in container herein, and you will be able to master any of the skills mentioned above, and more, in a very short time, without any hand-holding that usually happens in courses, and that will make you very powerful. 
 
 *The Process:*
 
