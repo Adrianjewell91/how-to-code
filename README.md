@@ -2,7 +2,7 @@
 
 by Adrian Jewell (www.adrianjewell.com)
 
-(Thank you for reading!)
+(Thank you for reading! Please offer feedback and edit suggestions if so inclined)
 
 *Introduction (Know)*
 
