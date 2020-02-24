@@ -7,7 +7,7 @@ by Adrian Jewell (www.adrianjewell.com)
 There is no doubt that software engineers are in high demand. As a case in point, the website LinkedIn.com, posted 335,000 software engineer jobs last weekend in the United States. But despite the abundance of excellent online curriculum that is freely available, it is not easy to learn to code. One reason, among many, is that it is hard to pick the right curriculum. How can somebody trust that their curriculum is trustworthy? There just isn’t a clear answer.
 
 In fact, today on the internet, there are a lot of courses about how to code. On Udemy, there are 10000 results given a search for “coding.” On Google, a search for “learn to code” will return 7,020,000,000 results. These numbers show that there is a lot of information for a student of coding. Even for an eager student, it would take too long to sift through this library of knowledge. 
-This course is the solution to this problem. I am a software engineer with several years of experience, and I wrote this course to give students the most important knowledge for learning to do software engineering. Personally, I got into coding through a bootcamp, then I worked in the industry, and also worked full time as a coding instructor. During this time, I learned something very valuable:
+This treatise is the solution to this problem. I am a software engineer with several years of experience, and I wrote this article to give students the most important knowledge for learning to do software engineering. Personally, I got into coding through a bootcamp, then I worked in the industry, and also worked full time as a coding instructor. During this time, I learned something very valuable:
 
     Learning to think correctly will allow the student to easily teach him/herself anything programming-related.
 
@@ -96,7 +96,7 @@ The answer is no, because more questions must be answered before any programmer 
 
     How many of the users emails do we want to return? 
 
-A computer programmer must also answer these questions before building the application. Why is that? Well, it’s because these questions have more than one answer. Thus, the engineer must decide the answer, and there may be more questions worth asking and answering. Given the fact of the matter, one might notice that these questions are slightly more specific than the first questions that were asked earlier. Therefore, they fall under the category of “TEST CASES” rather than “CLARIFYING THE QUESTION,” but as iterated before: both categories are very closely related to each other. Writing these tests cases is extremely important, perhaps the most important part of computer programming, and later on this in this course, the reader will find an outline of strategies to ensure the finding of all test cases for a problem. 
+A computer programmer must also answer these questions before building the application. Why is that? Well, it’s because these questions have more than one answer. Thus, the engineer must decide the answer, and there may be more questions worth asking and answering. Given the fact of the matter, one might notice that these questions are slightly more specific than the first questions that were asked earlier. Therefore, they fall under the category of “TEST CASES” rather than “CLARIFYING THE QUESTION,” but as iterated before: both categories are very closely related to each other. Writing these tests cases is extremely important, perhaps the most important part of computer programming. 
 
 At this point, it is my hope that this introduction has made the reader interested in the process of software engineering. The reader also may also notice that the problem solver hasn't done any coding yet.  That is intentional, because this text's goal is to teach the process of computer programming, and computer programming actually starts with this process of trying to understand the problem as clearly as possible. Once the programmer understands the problem, then he or she will begin steps  more related to coding: two through six. The remaining portion of this introduction with walk through the remaining steps, but in order to do necessitates the switching gears (a little bit). 
 
@@ -155,7 +155,7 @@ Finally, a step involving the word “code” - but only pseudo-code. That is, c
 
 Going line by line: in line one, we recognize that there are three numbers. In line two, we calculate the sum of the numbers, and in line three, we give the answer. What is above is pseudo-code because it looks like code, but is not formal syntax of any particular programming language. 
 
-Now, moving forward, it is finally fair to say that the engineer needs be familiar with coding to write the above pseudo-code. They should have taken a codeAcademy course on a programming language of their choice. After taking that course, it won’t be hard to write pseudo-code. 
+Now, moving forward, it is finally fair to say that the engineer needs be familiar with coding to write the above pseudo-code. They should have taken a codeAcademy course on a programming language of their choice. 
 
 At the same time, writing peusdo can actually be one of the hardest things to do throughout this process. If it is hard, do more test cases until the process becomes so engrained in your mind that it flows out of you easily and quickly in words. 
 
@@ -181,79 +181,82 @@ Think of a problem that you want to solve, and document your thoughts and conclu
 
 Some questions to ask yourself are: Can I think of the problem in terms of inputs and outputs? Where do I get stuck in the process? What gets you unstuck?  
 
-*Strategies: (LEARNED)*
+*A Discussion on Strategizing: (LEARNED)*
 
-Strategies that help along the various stages in the problem solving process:
+Lets say that I want to write some code that converts the following inputs into the following outputs:
 
-1. Clarifying the problem and generating test cases, respectively: 
-    - Ask clarifying questions and assume nothing.
-    - Read about edge and race cases, and come up with them.
-    - Put yourself in a lot of situations where peers point out a test case that you hadn’t thought of yourself, and deal with the embarrassment that you didn’t think of it yourself. 
-2. Coming up with strategies:
-    - If it is hard to come up with strategy, think of easier test cases, then find rules that describes every single test case. That is, if all of the test cases share something in common, then that information could be useful in how to get the inputs from the outputs.  Test out the observation by seeing if there is a way to explain how the output comes from the input, in terms of the observed similarity.  
-    
-        For example, lets say that I want to write some code that passes these three test cases, only these test cases, and no other test cases:
-        
-            [2, -1, 1] => [1, -1, 2]
-            [3, -1, 2] => [2, -1, 3] 
-            [3, -1, 0] => [0, -1, 3]
+    [2, -1, 1] => [1, -1, 2]
+    [3, -1, 2] => [2, -1, 3] 
+    [3, -1, 0] => [0, -1, 3]
 
-        You might start with some obvious things, such as the fact that every single array has three numbers, that the middle number is always -1, and that the inputs are unsorted, and the outputs are always sorted...that is, when we ignore the -1's. But this leads up to more intersting ideas. In fact,  just mentioning the -1 bears to light another striking pattern: that the -1's never move. At this point, some patterns are beginning to emerge in one's head, and so after having gone through this series of observations, it should now be clear that each test cases inputs simply have their first and last element swapped with eacher. As such, the logical step for this transformation is: 
-    
-            Swap the first element with the last element.
-    
-        This is a strategy, and arriving at this strategy is what is described above: it is way that a human being introspects their process of observation, makes note of key observations, and the combines them together to a series of instructions that turn the inputs into the outputs.
+What engineer will do is start with some easy observations, such as the fact that every single array has three numbers, that the middle number is always -1, and that the inputs are unsorted, and the outputs are always sorted...that is, when we ignore the -1's. But this leads up to more intersting observations. For example, observing the sheer presence of the -1 illuminates a subtler pattern: that the -1's change their position when an input changes to an output. At this point, explanations for how inputs are turned in outputs are beginning to emerge in one's head, and perhaps, it will become clear that each test case's input simply has its first and last element swapped with each other. More formally stated, the logical step for this transformation is: 
 
-        How this is exactly accomplished by the mind is an academic interest for the author, but at this point, the only gauranteed way to do it is to subdivide the problem. This is the next technique to employ when having trouble coming up with strategies.
+    Swap the first element with the last element.
 
-        Subdivision can be two things. Firstly, it can be used to explain how the above partricular series of edge cases is a subclass of a larger series of test cases (albeit, only two more). 
+The above is what engineers call a strategy, discovered via the process just described. That is, the way that a human mind introspects their own process of observation, makes note of key patterns, and the combines them together to an instruction or, series of instructions, that successfuly convert all of the inputs into the given outputs.
 
-            [2, -1, 1] => [1, -1, 2]
-            [3, -1, 2] => [2, -1, 3] 
-            [3, -1, 0] => [0, -1, 3]
+How this is exactly accomplished is of academic interest for the author, for the sheer fact that all of the author's creative pursuits include moments of clarity. That is, several seconds of sudden realization that a pattern exists here or there, the details naturally depending on the medium of art being pursued at that moment. This moment of creative insight is so satisfying and seemingly illusive a feeling that the author feel warranted to request an in-depth study of the phenomenon. Specifically, scientists should study the causal events that lead up the moment of clarity.
 
-            [-1, 4, 2] => [-1, 2, 4]
-            [5, 0, -1] => [5, 0, -1]
+In software engineering, that particular moment is the instant where all of the patterns that the engineer had derived from his or her observations suddenly congeal into the series of instructions that must be performed to transform the input into the output. That moment is a feeling engineers love to have, and even more, why people love to have this feeling is also an important question that merits scientific investigation.
 
-        The first three tests are identical for the formers, and the next two are new cases of inputs and outputs. 
-    
-        Let us again make some observations. The new test cases are similar in structures (length, contain a -1, output is swapped, -1 does not move), but are also different in a single way: the placement of the -1. Pondering this fact, it should lead the problem solver to arrive at the observation that while the -1 might be placed elsewhere, the other two numbers to still simply swapped with one another. 
-        
-        But now, how to put all of this together into a pattern that accurately describes all of the test cases? How about:
+Now, once the engineer has come up with the strategy for a given set of inputs nad outputs, it is then their job to understand how to get a computer to actually do the work required of the strategy. Now, the engineer turns his or her attention to figuring out how to understand their own thinking in terms that will make sense with the way the computer works. The fact is that computers don't work the way minds work, but until that time comes, engineers have to perform the work of transforming an idea that expresses itself so naturally in a spoken language, to a series of instructions that the computer will understand. 
 
-            Swap the two numbers are not equal to -1.
+The author's opinion is that the only gauranteed way to successfully do this is to subdivide the problem.  As a matter in fact, there are two different ways to do it.  First, subdivision can explain how the partricular series of edge cases described above is a subclass of a larger series of test cases (albeit, only two more). 
 
-        Which sounds easy enough, and viola, another strategy has bubbled to the surface. But remember, this conversation was about the idea of subdivison. Getting back to the concept, this brief digression showed how test cases could be subdivided and then built back to together to come up with more sophisticated strategies. How do we know that a strategie is sophisticated? We know when it can subdivided into multiple stpes. To understand, notice this strategy:
+    [2, -1, 1] => [1, -1, 2]
+    [3, -1, 2] => [2, -1, 3] 
+    [3, -1, 0] => [0, -1, 3]
+    +
+    [-1, 4, 2] => [-1, 2, 4]
+    [5, 0, -1] => [5, 0, -1]
 
-             Swap the two numbers not equal to -1.
+The first three tests are of course identical for the formers, and the next two are new cases of inputs and outputs. 
 
-        This strategy is actually two separate steps, written in one possily way as:
+Let the reader once again make some observations. The new test cases are similar in structure (length, containing  a -1, output is swapped, -1 does not move), but are also different, but only in one single way: the placement of the -1. Pondering this should lead the problem solver to arrive at the observation that while the -1 might be placed in a different position, the other two numbers still simply swapped get swapped with one another. 
 
-            First, find the location of -1. 
-            Second, swap the other two numbers.
+Putting all of this together into a pattern that accurately describes all of the test cases would amount to:
 
-        Written another possible way as:
+    Swap the two numbers are not equal to -1.
 
-            First, find the two valid numbers
-            Second, swap them.
+ Lo and behold, a new strategy is born, and let us understand how subdivision applies here. Looking at this strategy reveals how the initial strategy is buried within this new strategy.  If we think about it, we will see that if the position of the -1 was in the middle of the three numbers, then the swapping that occurs would be identical to the kind of swapping done in the intitial proposed strategy (that of simply swapping the first and last element.) But of course, if the position of the -1 isn't the middle number, then certain other kinds of swapping need to happen, for instance, perhaps the first and second element, as opposed to the first and last. Thus, it becomes fair to say that not only does the new solution encapuslate the first solution, but it account for other transformations of the inputs too. In this way, appreciate how this creation of a hierarchy of logical operations amounts to a kind of subdivision, in the way that a tree's branches divide as the tree grows; parent branches include all the children of the branches are "subdivisions" of the parent branch.
+ 
+ So, in this way, subdivision speaks to how strategies are comprised a smaller, individually describable strategies. Notice, as well, the way in which an example from nature serves as the analogy to explain the use of the word subdivision, Indeed, it is very interesting how the natural world inspires the creative mind.
+ 
+ Getting back to the topic of subdivision, it should now be clear how subdivision in the context of a strategy. But, notice here how the trajectory of this particular discussion move from discussion a smaller set to a large set of inputs, and similarly, how the strategy of the smaller set of inputs is a buidling block of the solution described by the larger set of inputs and outputs. All of this implies a movement from the simple to the complex. Yet, there is also be many times when the opposite is required. The goal of subdivision, then is to break down a strategy into its component parts.
+ 
+ To understand how this works, return once again to the strategy under analysis:
 
-        In either case, the reader should see how this problem subdivides. Unfortunately, it is insanely hard to see this connection, even for people learning to code. This is because the concept of moving things does not immediately appear to people are comprise of the two necessary processes of first finding the thing to be moved, followed by the actual moving of the thing. Yet, if people paid attention very closely, they would know that in their own life, whenever they want to move something, they must first locate it with their eyes, and then do the moving. Put another, it is possible to know that one must find something before moving something if evident in that fact that people fail to the find the things their looking for. 
+    Swap the two numbers not equal to -1.
 
-        Consider, for instance, an hypothetical situation where you want to take out the milk from the fridge, but when you open the fridge to move it, you realize the fridge isn't there. If this happens, you will start wondering where the fridge is, but the only reason you care about it, at this point, at least, is because you want to move it. That is enough to convince the author that one must find before one moves, and this is very intimately tied together in the way the mind works, and programmer will study these structures and flows in the world of the mind and physical world when thinking of ways to subdivide problems. 
+It may be possible that somebody simply asked an engineer to write a program performed the above task, and the engineer didn't know how to code it. At this point, what the engineer will do is attempt to break the problem into smaller chunks that they do know how to code. Given the above the strategy, the solutions to such a division would probably look like this:
 
-        Getting back to the test cases under study,  appreciate the two ways in which the concept of subdivision has worked. First, it led to both the building up a more complex strategy for more test cases. Secondly, it break down that same strategy, however deftly stated in words, into a pragmatic division of labor between separate processes. Naturally, this kind of thinking occurs at larger and larger scales of complexity, at which case the computing machine itself becomes a source of intuition for how to subdivide problems, as well how to come up with more test cases. 
-        
-        Why such a subdivision of labor is necessary has not yet been the topic of discussion, but now it will be so. In a nutshell, subdividing is the way in which an engineer gets from the explanation in English to the code itself (through the process of pesudo-coding too, of course). As it turns out, the subdivided steps are implementable while the single-sentence equivalent is not. One knows this by knowing what one's programming languages of choice are capable of doing. This come from taking a quick course on a programming language, and then being capable of reading documentation about what programming software is available. 
-        
-        That is to say, if my manager asked me as to write software that did exactly as the aforemention strategy under analysis did, I would probably find someone who already wrote it online and just use that instead, because why reinvent the wheel unless it's bad? But, in the situation restricted to single a resource, namely, the programming language and no outside tools, writin the program from scratch would be required, and subidive problems will be very helpful.
+    First, find the location of -1. 
+    Second, swap the other two numbers.
 
-        In other words, software engineers use subdivision to break a strategy down into logical steps that are codable, and intuivie, and they use insights drawn from their observations of the physical and mental world to lend them insight into the ways of subdividing problems. Some of that may or may not have made sense, but hopefully it is clear that strategizing is a rather cognitive task..
+Written another possible way is:
 
-3. Pick a solution: Be evaluated on your judgement many times over and over again. Learn about Time and Space Complexity.
-5. Implement and Test: Lots of coding and reading solutions.
-    - First, take a Programming Langauge Course on Codecademy.com.
-    - Second, if figuring out the code is a challenge, try letting an idea just pop into your head. It will usually be just an inkling, so be sure to flesh it out as completely as possible by trying to do it in a computer program or run the code in a repl. (jargon alert, sorry!). The truth is that people have ideas before they understand them. Therefore, strive to implement ideas that come to mind, and seek to understand completely. 
-    - Learn to debug code, if you run code and you don't understand it fifteen seconds, debug the code.
-    - When coding, and an ambiguity in syntax comes up, then use one's research skills to find the answer. This ususally involves reading stackoverflow.com or reading the documentation for the programming language of one's choice.
-    - Additionally, a technique for reading solutions to problems is to do the code on paper, beginning to end. Do not take shortcuts. "Doing the code" means stepping through the code, line by line, tracking all the variables. If you do this, you will understand the code, and you will gain insight. The truth is that we often cannot understand code by reading it. We must debug the code or do it out by hand. 
-    - Study everything about the machine that runs your programs. Today, that machine is the personal computer. Understanding the machine that runs your program will make it easier for you to program them.
+    First, find the two valid numbers.
+    Second, swap them.
+
+In either case, the reader should see how this problem subdivide very nicely. Unfortunately, it can sometimes be insanely hard to see this subdivision. This is because the concept of finding things before moving them does not immediately appear to people as a subdivion. Yet, if people paid attention very closely to their mind, they would know that in their own life, whenever they want to move something, they must first locate it. The reason that this is true is because people get nervous when they realize they lost the thing they were trying to move. 
+
+Consider, for instance, an hypothetical situation where you want to take your favorite shirt from the dresser, but when you open the dresser to take it out, you realize it's not there. If this happens, you will start wondering where it is, but the only reason you care about where it is is because you wanted to move it. Certainly there are other reasons to care about where something is, but for the sake of this exercise, simply understand insight that the intention to move something, followed by the fact that not knowing where it is creates anxiety is enough to establish the psychological construct of the need to find the thing as a precursor to moving the thing. This is all to say that the programmer studies the natural world, drawing inspiration from when thinking of ways to subdivide problems (once again a reference to the natural world).
+
+Continuing forward, the coder then finds a way to explain these strategies in the most practical way possible, with the two sudivided options referenced in the gutter:
+
+    If the -1 is in first position: \\ find the -1
+        Swap the second and the third elements. \\ swap
+    If the -1 is in second position:
+        Swap the first and the last elements.
+    If the -1 is in third position:
+        Swap the first and the second elements.
+
+Notice here how the new instructions a certain kind of subdivision, a subdivision that brings the instructions into a physical realm, as if the person reading the instructions was looking at the numbers on a chalkboard or as blocks on the ground. Regardless, the reference to the physical act of tracking things emphasizes that inputs and outputs are physical things being manipulated in the physical world. The engineer needs to be very in tune with this physical world in order to be able to derive instructions of this sort from the previous instructions. 
+
+Then again, notice how this kind of thinking is innate to human beings use of language. Remember, just a moment ago, when in my description of how the simpler inputs' solutions was contained within the strategy to the larger set of inputs' solution. That is, it was not hard to make that analysis in the context of the parent, but in the situation where one is first given the parent strategy without the subdivisions are given, it is actually very difficult to make those subdivisions oneself, wherein lies the gift of the talented problem solver, and then necessity to refer to the nature or one's life experience in the physical world of life for explanations of how to possiblly subdivide a strategy.
+
+As a side note, what the reader just learned regarding challenge of subdividing down exemplifies what mathematicians call NP problems. NP Problems can time a long time to solve, but it is a very quick process to know whether a given possible solution is in fact an actual solution to the problem. Subdividing is this kind of problem because making subdivisions can take a long tiem, but given a set of possible subdivisions to any given strategy, it is easy to tell which ones are in fact correctly contained in the parent strategy.
+
+At the same time, for a very knowledgeable reader, it will occur to the them that the subdivisions being described could in fact be subdivided more, perhaps into physical movements of the body or eyes, ad infinitum. It is the engineers job to know that this particular series of instruction is best suited for trasnforming into code, and any software engineer is have this knowledge from simply learning to code. 
+
+So there, subdivision highlights the ways in which the engineer reaches an understand of their mental processes as they transform inputs to outputs. It also brings the engineer closer to the 'code', so to speak, so that implementing the strategy becomes easier. Certainly, the journey doesn't stop here for the engineer, for now the task lay ahead of the them the task to implement their strategy.  But as many wise people have said, "Where there is a will, there is a way," so the engineer is not worried about how he or she will realize the vision if they are 100% sure of what it is and that they want to achieve it. 
