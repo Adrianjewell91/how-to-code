@@ -6,7 +6,7 @@ by Adrian Jewell (www.adrianjewell.com)
 
 *Introduction (Know)*
 
-This treatise contains everything the lay persons needs to know about how to become a software engineer. There is no doubt that software engineers are in high demand. As of late, the website LinkedIn.com, posted 335,000 software engineer jobs last weekend in the United States. It is the author's position that while there are there are 10000 coding courses on Udemy, and 7,020,000,000 results on Google, the opinions contained therein are the gems of knowledge one needs to develop skills in computer programming.
+This treatise contains everything the lay person needs to know about how to become a software engineer. There is no doubt that software engineers are in high demand. As of late, the website LinkedIn.com, posted 335,000 software engineer jobs last weekend in the United States. It is the author's position that while there are there are 10000 coding courses on Udemy, and 7,020,000,000 results on Google, the opinions contained therein are the gems of knowledge one needs to develop skills in computer programming.
 
 Trust in the author's opinion. He is a software engineer with several years of experience, and also a alummni of the AmeriCorps. He taught myself to code is a child, studied music in school, then did a coding bootcamp later on. He worked in the industry, and also worked full time as a coding instructor. During this time, he learned something very valuable:
 
