@@ -4,19 +4,18 @@ by Adrian Jewell (www.adrianjewell.com)
 
 *Introduction (Know)*
 
-There is no doubt that software engineers are in high demand. As a case in point, the website LinkedIn.com, posted 335,000 software engineer jobs last weekend in the United States. But despite the abundance of excellent online curriculum that is freely available, it is not easy to learn to code. One reason, among many, is that it is hard to pick the right curriculum. How can somebody trust that their curriculum is trustworthy? There just isn’t a clear answer.
+This treatise contains everything the lay persons needs to know about how to become a software engineer. There is no doubt that software engineers are in high demand. As of late, the website LinkedIn.com, posted 335,000 software engineer jobs last weekend in the United States. It is the author's position that while there are there are 10000 coding courses on Udemy, and 7,020,000,000 results on Google, the author's opinions contained therein are the gems of knowledge one needs to develop skills in computer programming.
 
-In fact, today on the internet, there are a lot of courses about how to code. On Udemy, there are 10000 results given a search for “coding.” On Google, a search for “learn to code” will return 7,020,000,000 results. These numbers show that there is a lot of information for a student of coding. Even for an eager student, it would take too long to sift through this library of knowledge. 
-This treatise is the solution to this problem. I am a software engineer with several years of experience, and I wrote this article to give students the most important knowledge for learning to do software engineering. Personally, I got into coding through a bootcamp, then I worked in the industry, and also worked full time as a coding instructor. During this time, I learned something very valuable:
+Trust my opinion. I am a software engineer with several years of experience, and I wrote this article to give students the most important knowledge for learning to do software engineering. Personally, I taught myself to code is a child, studied music in school, then did a coding bootcamp later on. I worked in the industry, and also worked full time as a coding instructor. During this time, I learned something very valuable:
 
-    Learning to think correctly will allow the student to easily teach him/herself anything programming-related.
+    Planning correctly will allow the student to easily teach him/herself anything programming-related.
 
-The truth is: the majority of online coursework teaches you very specific skills, but it doesn’t teach you how to think correctly. Just do a search on Google. You will see that all courses have titles like: 
+The truth is that while the majority of online coursework teaches very specific and some highly marketable skills, they don't teach how programmers think. Just do a search on Google, and see the plethora of courses with titles like: 
 “Intro to Python”,
 “Intro to Machine Learning”, 
 “Working with Kubernetes”, 
 “Build a Javascript Web Application in seven days”. 
-While these courses are useful, they only teach a specific programming skill. Instead, if you study the information in this book, you will be able to learn any of the skills mentioned above, and more, in a very short time, without any hand-holding that usually happens in courses. That will make you very powerful. 
+While these courses are useful and necessary, they teach the how but not the why or what. Instead, study the information in container herein, and you will learn how to master any of the skills mentioned above, and more, in a very short time, without any hand-holding that usually happens in courses. That will make you very powerful. 
 
 *The Process:*
 
