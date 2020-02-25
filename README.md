@@ -261,4 +261,4 @@ Tips to Get Started:
 1. Take a free online coding course (Codecademy.com is good, python or javascript are good to start). 
 2. Ask an engineer to teach you how to debug, do code on paper, and "research documentation."
 3. Do problems on leetcode.com and codesignal.com ( for codesignal: arcade or interview problems).
-4. Apply this problem solving process to the problems.
+4. Apply the ideas in this paper to the problems.
