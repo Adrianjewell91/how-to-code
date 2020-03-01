@@ -71,7 +71,7 @@ Clarifying the problem is the first of six steps in a problem solving process th
     3. PICK A STRATEGY
     4. WRITE PSEUDO-CODE
     5. WRITE CODE
-    6. VERIFY/TEST (ACTUALLY IS DONE THROUGHOUT THE WHOLE PROCESS)
+    6. VERIFY/TEST (DONE THROUGHOUT THE WHOLE PROCESS)
 
 It will take some time to explain this process, but rest assured that mastering this process will enable the reader to do software engineering. Now, also notice that both “WRITE TEST CASES” and “CLARIFY THE PROBLEM” claim are part of the first step. That is intentional because these steps are one and same, but with slightly different names and looks. 
 
