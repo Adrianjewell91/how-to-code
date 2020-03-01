@@ -8,7 +8,7 @@ by Adrian Jewell (www.adrianjewell.com)
 
 This treatise contains everything the lay person needs to know about how to become a software engineer. In fact, it might be good idea for more people to go into the field because software engineers are in high demand. This is known because the website Linkedin.com, recently posted 335,000 software engineer jobs in the United States. Now, it is the author's position that while there are there are 10000 coding courses on Udemy, and 7,020,000,000 results on Google, the opinions contained herein are the gems of knowledge one needs to develop professional-grade skills in computer programming.
 
-Trust in the author's opinion. He is a software engineer with several years of experience, an alumni of the AmeriCorps, and a concert pianist and composer. He taught himself to code as a teenager, and later on, did a coding bootcamp to help himself break into the field. He worked in the industry, and also worked full-time as a coding instructor. During this time, he learned a valuable lesson:
+Trust in the author's opinion. He is a software engineer with several years of experience.  He taught himself how to code as a teenager, and later on, did a coding bootcamp to help himself break into the field. He worked in the industry, and also worked full-time as a coding instructor. During this time, he learned a valuable lesson:
 
     Planning correctly will allow the problem solver to easily teach him/herself anything programming-related.
 
