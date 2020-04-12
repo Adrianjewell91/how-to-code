@@ -1,4 +1,4 @@
-# For the Lay Audience: How Computer Programmers Think 
+# How Computer Programmers Think 
 
 by Adrian Jewell (www.adrianjewell.com)
 
