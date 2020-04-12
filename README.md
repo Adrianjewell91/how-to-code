@@ -49,7 +49,9 @@ Now at this point, it is possible to see that clarification of requirements coul
             AND THEY SHOULD LOAD QUICKLY,
             AND ANY EMAIL I RECEIVE SHOULD NOT BE MODIFIED AFTER I RECEIVE IT.
 
-Most people would expect an email app to meet these requirements. In fact, all of these mentioned requirements are very interesting and challenging software problems that engineers have tackled for many years, but that is besides the point. For now, simply understand that clarifying requirements is a major part of a software engineer's initial reasoning about a problem. However, this process of clarification is not the key skill in software engineering, but rather a tool to help the engineer succeed at the original task: viewing a problem in terms of its inputs and outputs. In the case of our example, the answer is as follows:
+Most people would expect an email app to meet these requirements. In fact, all of these mentioned requirements are very interesting and challenging software problems that engineers have tackled for many years, but that is besides the point. For now, simply understand that clarifying requirements is a major part of a software engineer's initial reasoning about a problem. 
+
+Remember, however, that this process of clarification is not the key skill in software engineering, but rather a tool to help the engineer succeed at the original task: viewing a problem in terms of its inputs and outputs. In the case of our example, the answer is as follows:
 
     (Username and Password) -> (Emails associated with the Username)
 
