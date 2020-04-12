@@ -20,7 +20,7 @@ The fundamental skill is software engineering is reasoning about problems in ter
 
     INPUTS -> OUTPUTS
 
-This may sound simplistic or contrived, but actually it is not. To exemplify, let’s say that you want to build an app for your phone that lets you read emails. If you want to build this application, you will probably be envisioning yourself using the app, in a scenario such as this:
+This may sound simplistic or contrived, but actually it is not. To understand how an engineer accomplishes this, we start with a real world problem. Let’s say that you want to build an app for your phone that lets you read emails. If you want to build this application, you will probably be envisioning yourself using the app, in a scenario such as this:
 
     As a user, I want to go on the app and view my emails.  
     
@@ -34,7 +34,7 @@ The addendum may have suprised a few people, causing them to respond like this: 
 
     As a user, I want to go on the app and view my emails.
 
-I’d certainly ask him/her if the users wants to only see their own emails, or whether user want to see their emails along with other peoples emails. In reality, this is a valid question because the original requirement doesn’t specify, and there are certainly scenarios where seeing others' emails is preferrable (such as parents monitoring children's internet activity). This may be a contrived example, but the only reason it is contrived is because when people talk about viewing email, they automatically assume the idea is to only see their own personal emails. This kind of thinking, however, is what engineers call jumping to conclusions, and that’s something to avoid when buidling software. 
+I’d certainly ask him/her if the users wants to only see their own emails, or whether user want to see their emails along with other peoples emails. In reality, this is a valid question because the original requirement doesn’t specify, and there are certainly scenarios where seeing others' emails is preferrable (such as parents monitoring children's internet activity). This may be a contrived example, but the only reason it is contrived is because when people talk about viewing email, they automatically assume the idea is to only see their own personal emails. This kind of thinking, however, is what engineers call jumping to conclusions, and that’s something to avoid when building software. 
 
 Now, another thing that is probably true about the email app is:
 
