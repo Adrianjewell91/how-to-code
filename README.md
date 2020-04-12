@@ -4,6 +4,8 @@ by Adrian Jewell (www.adrianjewell.com)
 
 (Thank you for reading! Feedback greatly appreciated.)
 
+VIDEO PRESENTATION: (https://www.youtube.com/watch?v=6B85OM0PI_E)
+
 *Introduction (Know)*
 
 This treatise contains everything the lay person needs to understand software engineering. In fact, it might be good idea for more people to go into the field because software engineers are in high demand. This is known because the website Linkedin.com, recently posted 335,000 software engineer jobs in the United States. Now, it is the author's position that while there are there are 10000 coding courses on Udemy, and 7,020,000,000 results on Google, the opinions contained herein are the gems of knowledge one needs to develop professional-grade skills in computer programming.
