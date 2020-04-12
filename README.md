@@ -243,7 +243,7 @@ Written another possible way is:
     First, find the two valid numbers.
     Second, swap them.
 
-In fat, it can sometimes be unintuitive to see this subdivision. This is because the concept of finding things before moving things is an apparent step in people's minds. Yet, if people paid attention very closely to their minds, they would know that in their own lives, whenever they want to move somethings, they must first locate the to be moved. The reason that this is true is because people get nervous when they realize they lost the things they were trying to move. 
+In fat, it can sometimes be unintuitive to see this subdivision. This is because the concept of finding things before moving things is an apparent step in people's minds. Yet, if people paid attention very closely to their minds, they would know that in their own lives, whenever they want to move somethings, they must first locate the thing to be moved. The reason that this is true is because people get nervous when they realize they lost the things they were trying to move. 
 
 Consider, for instance, a hypothetical situation where you want to take out your favorite shirt from the dresser, but when you open the dresser to take it out, you realize it's not there. If this happens, you will start wondering where it is, but the only reason you care about where its whereabouts is because you want to move it. Certainly there are other reasons to care about where is located, but for the sake of this exercise, simply understand that the anxiety of not knowing the whereabouts of an object one wants to move establishes the psychological construct of the need to find the thing as a precursor to moving the thing. 
 
