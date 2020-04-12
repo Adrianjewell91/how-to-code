@@ -47,7 +47,7 @@ Now at this point, it is possible to see that clarification of requirements coul
     As a user, I want to view my emails…
             FROM ANYWHERE IN THE WORLD,
             AND THEY SHOULD LOAD QUICKLY,
-            AND ANY EMAIL I SEND SHOULD NOT BE MODIFIIED IN TRANSIT TO THE RECIPIENT.
+            AND ANY EMAIL I SEND SHOULD NOT BE MODIFIED IN TRANSIT TO THE RECIPIENT.
 
 Most people would expect an email app to meet these requirements. In fact, all of these mentioned requirements are very interesting and challenging software problems that engineers have tackled for many years, but that is besides the point. For now, simply understand that clarifying requirements is a major part of a software engineer's initial reasoning about a problem. 
 
