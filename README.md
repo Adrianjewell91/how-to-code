@@ -10,7 +10,7 @@ This treatise contains everything the lay person needs to understand software en
 
 Trust in the author's opinion. He is a software engineer with several years of experience.  He taught himself how to code as a teenager, and later on, did a coding bootcamp to help himself break into the field. He worked in the industry, and also worked full-time as a coding instructor. During this time, he learned a valuable lesson:
 
-    Planning correctly will allow the problem solver to easily teach him/herself anything programming-related.
+    Thinking correctly will allow the problem solver to easily teach him/herself anything programming-related.
 
 Study this document, and you will be able to master any skill in coding, and more, in a very short time, without any hand-holding that usually happens in online courses, and that will make you very powerful. 
 
