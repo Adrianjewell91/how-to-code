@@ -4,7 +4,10 @@ by Adrian Jewell (www.adrianjewell.com)
 
 (Thank you for reading! Feedback greatly appreciated.)
 
-VIDEO PRESENTATION: (https://www.youtube.com/watch?v=6B85OM0PI_E)
+VIDEO PRESENTATION: 
+Part 1: https://youtu.be/6B85OM0PI_E
+Part 2: https://youtu.be/W-iRrE0l6i0
+Part 3: https://youtu.be/PvZApIKFshY
 
 *Introduction (Know)*
 
